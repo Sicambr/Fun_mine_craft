@@ -12,7 +12,7 @@ base_block['Z'] = int(input('Enter Z = '))
 
 size_floor['Length_floor'] = int(input('Enter Length of floor = '))
 size_floor['Width_floor'] = int(input('Enter Width of floor = '))
-size_floor['Hight_floor'] = int(input('Enter Length of floor = '))
+size_floor['Hight_floor'] = int(input('Enter Hight of floor = '))
 
 material = input('Material of floor = ')
 amount_floors = int(input('Amount of the floors = '))
@@ -24,10 +24,10 @@ for i in text_function:
 
 
 # Make file with functions
-name_of_file = 'Roma_build.mcfunction'
-way_file = 'c:\\Users\\cnc\\PycharmProjects\\pythonProject\\Mine_craft_fun\\'
+name_of_file = 'create_building.mcfunction'
+way_file = 'c:\\Users\\Atopus\\first\\pythonProject\\Minecraft\\'
 
-write_file = 0
+write_file = 1
 if write_file == 1:
     nefile = open(way_file + '\\' + name_of_file, 'w')
     # Add double cpase for the first Block

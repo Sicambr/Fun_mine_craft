@@ -19,6 +19,7 @@ def Make_build(base_block, size_floor, material, amount_floors):
         stroka2 = stroka2 + 'air\n'
         text_function.append(stroka2)
         #Change Z level of floor
-        base_block['Z'] = base_block['Z'] + size_floor['Hight_floor']
+        base_block['Y'] = base_block['Y'] + size_floor['Width_floor']
         i += 1
+    text_function.append('say We created a new building!\n')
     return text_function

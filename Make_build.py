@@ -1,3 +1,4 @@
+# This function create a big cube with size X,Y,Z 
 def Make_build(base_block, size_floor, material, amount_floors):
     text_function = []
     i = 1
